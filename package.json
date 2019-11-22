@@ -1,0 +1,43 @@
+{
+  "name": "bootstrap-multiselect-advanced",
+  "version": "0.1.0",
+  "description": "JQuery multiselect Advanced plugin based on Twitter Bootstrap.",
+  "main": "dist/js/bootstrap-multiselect.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/donkelley/bootstrap-multiselect-advanced"
+  },
+  "keywords": [
+    "js",
+    "css",
+    "less",
+    "bootstrap",
+    "jquery",
+    "multiselect"
+  ],
+  "author": "Don Kelley",
+  "license": "Apache License, Version 2.0",
+  "bugs": {
+    "url": "https://github.com/donkelley/bootstrap-multiselect-advanced/issues"
+  },
+  "homepage": "https://github.com/donkelley/bootstrap-multiselect-advanced/",
+  "scripts": {
+    "test": "karma start tests/karma.conf.js --single-run"
+  },
+  "dependencies": {
+    "jquery": "~2.1.3"
+  },
+  "devDependencies": {
+    "jasmine-core": "*",
+    "karma": "*",
+    "karma-cli": "*",
+    "karma-jasmine": "*",
+    "karma-phantomjs-launcher": "*",
+    "karma-chrome-launcher": "*"
+  },
+  "types": "./types/index.d.ts"
+}

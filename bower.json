@@ -1,0 +1,32 @@
+{
+  "name": "bootstrap-multiselect-advanced",
+  "description": "Advanced Twitter Bootstrap plugin to make selects user friendly.",
+  "homepage": "http://donkelley.git.com/bootstrap-multiselect-advanced/",
+  "version": "0.1.0",
+  "keywords": [
+    "js",
+    "css",
+    "less",
+    "bootstrap",
+    "jquery",
+    "multiselect"
+  ],
+  "main": [
+    "./dist/js/bootstrap-multiselect.js",
+    "./dist/css/bootstrap-multiselect.css",
+    "./dist/less/bootstrap-multiselect.less"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.11.0",
+    "bootstrap": ">= 2.3.2"
+  },
+  "ignore": [
+    "docs/.*",
+    "tests/.*",
+    "*.html",
+    "*.git*",
+    "*.md",
+    "*.png",
+    "*.php"
+  ]
+}
